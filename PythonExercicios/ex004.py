@@ -1,0 +1,8 @@
+n = input ('Digite algo: ')
+print("Isso é um numero:",(n.isnumeric()))
+print("É um decimal?",(n.isdecimal()))
+print("É uma letra?",(n.isalpha()))
+print("Possui letras e números?",(n.isalnum()))
+print("Está em maiusculo?",(n.isupper()))
+print("Possivel imprimir?",(n.isprintable()))
+print(type(n))
